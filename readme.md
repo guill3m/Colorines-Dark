@@ -15,15 +15,16 @@ Good question (I know, I'm the one who asked it, that's why is a good question).
 The one I'm happier with is the CSS one, I just love the color combination that came out. I'm not saying that the others are not good (I wouldn't be releasing it), but I'm not 100% convinced with them, so it's likely I'll be updating them some time (or not, who knows?), in any case, the CSS bit it's probably not changing ever (or really slightly), but I'm open for suggestions, always.
 
 ##Some bacon, I mean, screenshots
-![Screenshot](screenshot.jpg)
+![Screenshot](http://guillemandreu.com/github/screenshot.jpg)
 
 ## Installing
 Well, here you have two options, the first one is a simpple drag&drop, just find in your home folder the Library (if you're using Lion it will be hidden) and copy the css file to:
 >USERFOLDER > Library > Application Support > Espresso > Themes
 
 The other option is installing using Git with the *Terminal.app*:
->	cd ~/Library/Application\ Support/Espresso/Themes/
->	git clone git://github.com/guill3m/colorines-dark.git
+>cd ~/Library/Application\ Support/Espresso/Themes/
+
+>git clone git://github.com/guill3m/colorines-dark.git
 
 
 ## What about a light version of this theme?
@@ -38,10 +39,10 @@ Ok, I don't really like this question that muchs as the first one, but maybe som
 But if you don't like CSS (shame on you), or you're just lazy (hey, don't worry, it happens to all of us) I have other method that can be interesting for both of us:
 
 * You could send me an image, or html styled with css, or whatever think I can see how that language should be styled as (prefereably with colors similar as the ones used on the themes, as they are most likely the ones I'm going to use).
-* Also with the "styled" images/something attach me some piece of code where I can see all the kinds of tags, selectors, variables, shit… that should be styled so I can use it as a reference for seeing if it's all coming up good.
+* In addition to the "styled" images/something attach me some piece of code where I can see all the kinds of tags, selectors, variables, shit… that should be styled so I can use it as a reference for seeing if it's all coming up good.
 
 ## Suggestions or collaborations on making this theme even more awesome
-I'm always oppen to suggestion, **always**. And if you'd like to collaborate you can to, it's described on the previous point.
+I'm always open to suggestions, **always** (and if you want to correct my crappy english, that's welcomed to). And if you'd like to collaborate you can to, it's described on the previous point.
 
 ## OK, enough bla bla bla
-If you really readed all this nonsense just for a theme you've earned my respect, seriously, now you're free for try *Colorines Dark* a little
+If you really readed all this nonsense just for a theme you've earned my respect, seriously, now you're free to try *Colorines Dark*.
