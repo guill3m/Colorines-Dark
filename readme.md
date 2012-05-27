@@ -22,9 +22,9 @@ Well, here you have two options, the first one is a simpple drag&drop, just find
 >USERFOLDER > Library > Application Support > Espresso > Themes
 
 The other option is installing using Git with the *Terminal.app*:
->cd ~/Library/Application\ Support/Espresso/Themes/
+>	cd ~/Library/Application\ Support/Espresso/Themes/
 
->git clone git://github.com/guill3m/colorines-dark.git
+>	git clone git://github.com/guill3m/Colorines-Dark.git
 
 
 ## What about a light version of this theme?
