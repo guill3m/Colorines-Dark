@@ -1,6 +1,7 @@
-# Colorines Dark - Espresso Theme
+# Colorines Dark
+### Some Espresso Theme
 
-I love [MacRabbit's Espresso](http://macrabbit.com/espresso/), but I'm not happy with any of the themes I've found. So, finaly, I decided to make my own theme. Just a **colorfull theme** with **dark background** and silly name (yes, it's a pretty stuppid name, try to translate it from spanish, well not, don't do it, please?).
+I love [MacRabbit's Espresso](http://macrabbit.com/espresso/), but I'm not happy with any of the themes I've found. So, finaly, I decided to make my own theme. Just a ***colorfull* theme** with **dark background** and silly name (yes, it's a pretty stuppid name, try to translate it from spanish, well not, don't do it, please?).
 
 ## What languages are styled?
 Good question (I know, I'm the one who asked it, that's why is a good question). Since this is a theme I made for me I've started with the ones I use, and as a front-end developer these are:
@@ -22,9 +23,8 @@ Well, here you have two options, the first one is a simpple drag&drop, just find
 >USERFOLDER > Library > Application Support > Espresso > Themes
 
 The other option is installing using Git with the *Terminal.app*:
->	cd ~/Library/Application\ Support/Espresso/Themes/
-
->	git clone git://github.com/guill3m/Colorines-Dark.git
+	cd ~/Library/Application\ Support/Espresso/Themes/
+	git clone git://github.com/guill3m/Colorines-Dark.git
 
 
 ## What about a light version of this theme?
