@@ -1,0 +1,483 @@
+/*
+  @theme Colorines Dark
+  @override-placeholders css, php, apache, markdown
+  @author Guillem Andreu [@guill3m]
+*/
+
+:document-base {
+	color: rgb(180, 180, 180);
+	background-color: rgb(25, 25, 25);
+	insertion-point-color: rgb(255, 255, 255);
+	selection-background-color: rgba(255, 255, 255, .1);
+	current-line-background-color: rgba(255, 255, 255, .05);
+}
+
+/* @group Generic */
+
+tag,
+sourcecode,
+css,
+python,
+ruby,
+javascript {
+	spell-check: disabled;
+}
+
+comment {
+	color: rgb(120, 120, 120);
+}
+
+string {
+	color: rgb(250, 250, 200);
+}
+
+operator {
+	color: rgb(255, 255, 255);
+}
+
+constant,
+numeric,
+character {
+	color: rgb(150, 50, 100);
+}
+
+keyword {
+	color: rgb(80, 180, 220);
+}
+
+comment keyword {
+	color: rgb(180, 180, 180);
+	font-weight: bold;
+}
+
+variable {
+	color: rgb(80, 130, 30);
+}
+
+function:not(definition) {
+	color: rgb(150, 50, 50);
+}
+
+function.definition name,
+class.definition name {
+	font-weight: bold;
+	color: rgb(150, 50, 50);
+}
+
+invalid {
+	color: rgb(100, 0, 0);
+	background: rgb(150, 50, 50);
+}
+
+/* @end */
+
+/* @group HTML */
+
+embedded-javascript tag,
+embedded-javascript entity.name {
+	color: rgb(150, 50, 100);
+}
+
+embedded-javascript attribute-name,
+embedded-javascript punctuation.separator.attribute {
+	color: rgb(250, 100, 150);
+}
+
+embedded-javascript string {
+	color: rgb(250, 200, 200);
+}
+
+embedded-style tag,
+embedded-style entity.name {
+	color: rgb(200, 100, 25);
+}
+
+embedded-style attribute-name,
+embedded-style punctuation.separator.attribute {
+	color: rgb(250, 150, 75);
+}
+
+embedded-style string {
+	color: rgb(250, 200, 150);
+}
+
+tag.self-closing,
+tag.self-closing entity.name {
+	color: rgb(80, 130, 30);
+}
+
+tag.self-closing attribute-name,
+tag.self-closing punctuation.separator.attribute {
+	color: rgb(180, 180, 50);
+}
+
+tag.self-closing string {
+	color: rgb(250, 250, 200);
+}
+
+tag,
+entity.name,
+tag > name {
+	color: rgb(0, 100, 150);
+}
+
+attribute-name,
+punctuation.separator.attribute {
+	color: rgb(80, 180, 220);
+}
+
+html string {
+	color: rgb(180, 230, 250);
+}
+
+html {
+	color: rgb(225, 225, 225);
+}
+
+entity.character {
+	color: rgb(200, 100, 25);
+}
+
+tag.doctype,
+tag.doctype entity.name {
+	color: rgb(80, 80, 80);
+	font-weight: bold;
+}
+
+/* Deprecated elements in HTML5 */
+html entity.name[text='acronym'],
+html entity.name[text='applet'],
+html entity.name[text='basefont'],
+html entity.name[text='big'],
+html entity.name[text='center'],
+html entity.name[text='dir'],
+html entity.name[text='font'],
+html entity.name[text='frame'],
+html entity.name[text='frameset'],
+html entity.name[text='noframes'],
+html entity.name[text='strike'],
+html entity.name[text='tt'] {
+	background: rgb(250, 0, 0);
+	color: rgb(10, 10 ,10);
+	font-weight: bold;
+}
+
+/* @end */
+
+/* @group CSS */
+
+css.embedded {
+	background: rgba(255, 255, 255, .01);
+}
+
+css selector,
+css selector punctuation,
+css selector constant {
+	color: rgb(150, 50, 100);
+}
+
+css pseudo-class,
+css pseudo-class punctuation.definition.keyword,
+css selector string {
+	color: rgb(250, 100, 150);
+}
+
+css property-name {
+	color: rgb(180, 180, 50);
+}
+
+css property-value,
+css property-value constant,
+css property-value keyword,
+css color,
+css color punctuation,
+css function parameter {
+	color: rgb(80, 130, 30);
+}
+
+css property-value keyword.important {
+	color: rgb(150, 50, 50);
+	font-weight: bold;
+}
+css property-value keyword.other.unit {
+	color: rgb(150, 200, 100);
+}
+
+css keyword.control punctuation,
+css keyword.control,
+css at-rule,
+css x-url-container support.function.url {
+	color: rgb(200, 100, 25);
+}
+
+css at-rule string,
+css x-text {
+	color: rgb(250, 250, 200);
+}
+
+css string,
+css.embedded string,
+css support.function.misc,
+css support.function.misc punctuation {
+	color: rgb(150, 200, 100);
+}
+
+css punctuation,
+css comment punctuation,
+css group-start,
+css group-end {
+	color: rgb(180, 180, 180);
+}
+
+css group-start name {
+	font-weight: bold;
+}
+
+/* @end */
+
+/* @group Javascript */
+
+js.embedded {
+	background: rgba(255, 255, 255, .01);
+}
+
+js variable {
+	color: rgb(180, 180, 50);
+}
+
+js keyword,
+js storage.type,
+js keyword.new {
+	color: rgb(80, 130, 30);
+}
+
+js keyword.control {
+	color: rgb(80, 130, 30);
+}
+
+js constant,
+js numeric,
+js character {
+	color: rgb(200, 100, 25);
+}
+
+js punctuation,
+js comment > punctuation {
+	color: rgb(180, 180, 180);
+}
+
+js string > punctuation,
+js variable.string,
+js.embedded string {
+	color: rgb(250, 250, 200);
+}
+
+js class.constructor > class {
+	color: rgb(150, 200, 100);
+	font-weight: bold;
+}
+
+js variable.language,
+js character.escape > punctuation {
+	color: rgb(200, 100, 25);
+}
+
+js function.definition > string > name {
+	color: rgb(180, 180, 50);
+}
+
+js function.definition > name,
+js function.definition > accessor-path > variable {
+	color: rgb(150, 200, 100);
+}
+
+/* @end */
+
+/* @group PHP */
+
+php delimiter.source,
+php delimiter.source > *,
+php definition name {
+	color: rgb(150, 50, 50);
+	font-weight: bold;
+}
+
+php keyword.language {
+	color: rgb(250, 100, 150);
+}
+php keyword {
+	color: rgb(150, 50, 100);
+}
+
+php keyword.variable,
+php keyword.variable.language {
+	color: rgb(200, 100, 25);
+	font-weight: bold;
+}
+
+php delimiter,
+php string > expression.complex > punctuation {
+	color: rgb(180, 180, 180);
+}
+
+php function {
+	color: rgb(200, 100, 25);
+}
+
+php function.definition name,
+php class.definition name {
+	font-weight: bold;
+	color: rgb(250, 100, 150);
+}
+
+php constant {
+	color: rgb(150, 50, 50);
+}
+
+php variable {
+	color: rgb(250, 150, 75);
+}
+
+php string.quoted {
+	color: rgb(250, 200, 150);
+}
+
+php constant.numeric,
+php constant.language,
+php constant.character {
+	color: rgb(150, 50, 50);
+}
+
+php embedded.html {
+	background-color: rgba(255, 255, 255, .01);
+}
+
+/* @end */
+
+/* @group Apache */
+
+apache {
+	color: rgb(250, 250, 250);
+}
+
+apache keyword.directive {
+	color: rgb(150, 50, 100);
+}
+
+apache string,
+apache pattern {
+	color: rgb(250, 250, 200);
+}
+
+apache constant {
+	color: rgb(180, 180, 50);
+}
+
+apache variable.server {
+	color: rgb(150, 200, 100);
+}
+
+apache flags {
+	color: rgb(150, 200, 100);
+}
+
+apache tag {
+	color: rgb(80, 130, 30);
+}
+
+apache entity.name,
+apache tag > name {
+	color: rgb(180, 180, 50);
+}
+
+apache regex.operator.not {
+	color: rgb(80, 130, 30);
+}
+
+/* @end */
+
+/* @group Markdown */
+
+markdown header,
+markdown > header punctuation.definition {
+	font-weight: bold;
+	color: rgb(150, 50, 100);
+}
+
+markdown bold {
+	font-weight: bold;
+	color: rgb(80, 130, 30);
+}
+
+markdown italic,
+markdown > italic punctuation.definition {
+	font-style: italic;
+	color: rgb(180, 180, 50);
+}
+
+markdown > list punctuation.definition {
+	color: rgb(150, 50, 50);
+}
+
+markdown bold italic,
+markdown italic bold,
+markdown > bold italic punctuation.definition,
+markdown > italic bold punctuation.definition {
+	font-weight: bold;
+	font-style: italic;
+	color: rgb(180, 180, 50);
+}
+
+markdown blockquote header,
+markdown > blockquote header punctuation.definition,
+markdown > blockquote punctuation.definition {
+	color: rgb(200, 100, 25);
+}
+
+markdown > punctuation.definition,
+markdown > list bold punctuation.definition,
+markdown *:not(html,comment) punctuation.definition,
+markdown separator {
+	color: rgb(80, 130, 30);
+}
+
+markdown separator,
+markdown hard-break {
+	background: rgba(255, 255, 255, .05);
+}
+
+markdown code {
+	color: rgb(80, 180, 220);
+}
+
+markdown blockquote,
+markdown blockquote list {
+	color: rgb(250, 200, 150);
+}
+
+markdown link,
+markdown image {
+	color: rgb(0, 100, 150);
+	font-weight: bold;
+}
+
+markdown url,
+markdown email,
+markdown link brace.round,
+markdown image brace.round {
+	color: rgb(80, 180, 220);
+	font-weight: normal;
+}
+
+markdown link string,
+markdown link string punctuation.definition,
+markdown image string,
+markdown image string punctuation.definition {
+	color: rgb(180, 230, 250);
+}
+
+markdown keyword.reference {
+	color: rgb(80, 180, 220);
+}
+
+/* @end */
