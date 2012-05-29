@@ -118,7 +118,7 @@ tag.self-closing string {
 tag,
 entity.name,
 tag > name {
-	color: rgb(0, 100, 150);
+	color: rgb(30, 130, 180);
 }
 
 attribute-name,
@@ -457,7 +457,7 @@ markdown blockquote list {
 
 markdown link,
 markdown image {
-	color: rgb(0, 100, 150);
+	color: rgb(30, 130, 180);
 	font-weight: bold;
 }
 

@@ -23,16 +23,17 @@ Well, here you have two options, the first one is a simpple drag&drop, just find
 >USERFOLDER > Library > Application Support > Espresso > Themes
 
 The other option is installing using Git with the *Terminal.app*:
->`cd ~/Library/Application\ Support/Espresso/Themes/`
+    cd ~/Library/Application\ Support/Espresso/Themes/
 
->`git clone git://github.com/guill3m/Colorines-Dark.git`
+    git clone git://github.com/guill3m/Colorines-Dark.git
 
 
 ## What about a light version of this theme?
 Maybe, sometime, I can't promise anything, but it could happen.
 
 ## What about more languages?
-Ok, I don't really like this question that muchs as the first one, but maybe someone is asking for it. Since I'm not going to use any other languages in a short–middle term I'm not really thinking on expand them in a short term.
+Today I just realized that there's a need of some XML styling, for the moment it's ok as it is since there are some defaults that fit OK, but I'll be refining it properly one of this days.
+For other languages, since I'm not going to use them in a short–middle term, I'm not really thinking on expand the theme in a short term (hy, don't worry, read the next point).
 
 ## But I really want *someotherlanguage* styled
 **Ok, if you love this theme (wow, thank you) you could make that bit of theme for it** (it's just CSS it's not really hard, the problem is to get the selectors ok, but when you get the point it's not that hard) and give me a touch to add it here (with the propper credits to you, obviously) and, maybe, fine tune it a little if I think it's needed.
