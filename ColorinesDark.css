@@ -1,6 +1,6 @@
 /*
   @theme Colorines Dark
-  @override-placeholders css, php, apache, markdown
+  @override-placeholders css, php, apache, markdown, js, javascript, json, html
   @author Guillem Andreu [@guill3m]
 */
 
@@ -80,7 +80,7 @@ embedded-javascript entity.name {
 
 embedded-javascript attribute-name,
 embedded-javascript punctuation.separator.attribute {
-	color: rgb(250, 100, 150);
+	color: rgb(250, 130, 180);
 }
 
 embedded-javascript string {
@@ -138,6 +138,12 @@ entity.character {
 	color: rgb(200, 100, 25);
 }
 
+ie.conditional,
+comment.block.html.conditional > punctuation {
+	font-weight: bold;
+	color: rgb(200, 200, 200);
+}
+
 tag.doctype,
 tag.doctype entity.name {
 	color: rgb(80, 80, 80);
@@ -179,7 +185,7 @@ css selector constant {
 css pseudo-class,
 css pseudo-class punctuation.definition.keyword,
 css selector string {
-	color: rgb(250, 100, 150);
+	color: rgb(250, 130, 180);
 }
 
 css property-name {
@@ -199,14 +205,16 @@ css property-value keyword.important {
 	color: rgb(150, 50, 50);
 	font-weight: bold;
 }
-css property-value keyword.other.unit {
+css property-value keyword.other.unit,
+css property-value parameter.misc {
 	color: rgb(150, 200, 100);
 }
 
 css keyword.control punctuation,
 css keyword.control,
 css at-rule,
-css x-url-container support.function.url {
+css x-url-container support.function.url,
+css constant.character.escape.css {
 	color: rgb(200, 100, 25);
 }
 
@@ -257,7 +265,10 @@ js keyword.control {
 
 js constant,
 js numeric,
-js character {
+js character,
+json character.escape,
+json > character.escape punctuation.escape,
+json > constant {
 	color: rgb(200, 100, 25);
 }
 
@@ -291,6 +302,11 @@ js function.definition > accessor-path > variable {
 	color: rgb(150, 200, 100);
 }
 
+json name,
+json variable.property.x-assignment punctuation {
+	color: rgb(150, 200, 100);
+}
+
 /* @end */
 
 /* @group PHP */
@@ -303,7 +319,7 @@ php definition name {
 }
 
 php keyword.language {
-	color: rgb(250, 100, 150);
+	color: rgb(250, 130, 180);
 }
 php keyword {
 	color: rgb(150, 50, 100);
@@ -327,7 +343,7 @@ php function {
 php function.definition name,
 php class.definition name {
 	font-weight: bold;
-	color: rgb(250, 100, 150);
+	color: rgb(250, 130, 180);
 }
 
 php constant {
