@@ -13,12 +13,8 @@ Good question (I know, I'm the one who asked it, that's why is a good question).
 * JSON
 * PHP
 * Apache
-* Markdown (I don't really like how it is right now, and I generally use *iA Writer* for Markdown, much much better, so I'm thinking on loose this one from the theme…)
 
 The one I'm happier with is the CSS one, I just love the color combination that came out. I'm not saying that the others are not good (I wouldn't be releasing it), but I'm not 100% convinced with them, so it's likely I'll be updating them some time (or not, who knows?), in any case, the CSS bit is probably not changing ever (or really slightly), but I'm open for suggestions, always.
-
-##Some bacon, I mean, screenshots
-![Screenshot](http://guillemandreu.com/github/screenshot.jpg)
 
 ## Installing
 Well, here you have two options, the first one is a simple drag&drop, just find in your home folder the Library (if you're using Lion or Mountain Lion it will be hidden) and copy the css file to:

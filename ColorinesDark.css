@@ -1,6 +1,6 @@
 /*
   @theme Colorines Dark
-  @override-placeholders css, php, apache, markdown, js, javascript, json, html
+  @override-placeholders css, php, apache, js, javascript, json, html
   @author Guillem Andreu [@guill3m]
 */
 
@@ -68,7 +68,6 @@ invalid {
 	color: rgb(100, 0, 0);
 	background: rgb(150, 50, 50);
 }
-
 /* @end */
 
 /* @group HTML */
@@ -185,7 +184,7 @@ css selector constant {
 css pseudo-class,
 css pseudo-class punctuation.definition.keyword,
 css selector string {
-	color: rgb(250, 130, 180);
+	color: rgb(253, 130, 180);
 }
 
 css property-name {
@@ -213,6 +212,7 @@ css property-value parameter.misc {
 css keyword.control punctuation,
 css keyword.control,
 css at-rule,
+css at-rule.media support.constant,
 css x-url-container support.function.url,
 css constant.character.escape.css {
 	color: rgb(200, 100, 25);
@@ -408,92 +408,6 @@ apache tag > name {
 
 apache regex.operator.not {
 	color: rgb(80, 130, 30);
-}
-
-/* @end */
-
-/* @group Markdown */
-
-markdown header,
-markdown > header punctuation.definition {
-	font-weight: bold;
-	color: rgb(150, 50, 100);
-}
-
-markdown bold {
-	font-weight: bold;
-	color: rgb(80, 130, 30);
-}
-
-markdown italic,
-markdown > italic punctuation.definition {
-	font-style: italic;
-	color: rgb(180, 180, 50);
-}
-
-markdown > list punctuation.definition {
-	color: rgb(150, 50, 50);
-}
-
-markdown bold italic,
-markdown italic bold,
-markdown > bold italic punctuation.definition,
-markdown > italic bold punctuation.definition {
-	font-weight: bold;
-	font-style: italic;
-	color: rgb(180, 180, 50);
-}
-
-markdown blockquote header,
-markdown > blockquote header punctuation.definition,
-markdown > blockquote punctuation.definition {
-	color: rgb(200, 100, 25);
-}
-
-markdown > punctuation.definition,
-markdown > list bold punctuation.definition,
-markdown *:not(html,comment) punctuation.definition,
-markdown separator {
-	color: rgb(80, 130, 30);
-}
-
-markdown separator,
-markdown hard-break {
-	background: rgba(255, 255, 255, .05);
-}
-
-markdown code {
-	color: rgb(80, 180, 220);
-}
-
-markdown blockquote,
-markdown blockquote list {
-	color: rgb(250, 200, 150);
-}
-
-markdown link,
-markdown image {
-	color: rgb(30, 130, 180);
-	font-weight: bold;
-}
-
-markdown url,
-markdown email,
-markdown link brace.round,
-markdown image brace.round {
-	color: rgb(80, 180, 220);
-	font-weight: normal;
-}
-
-markdown link string,
-markdown link string punctuation.definition,
-markdown image string,
-markdown image string punctuation.definition {
-	color: rgb(180, 230, 250);
-}
-
-markdown keyword.reference {
-	color: rgb(80, 180, 220);
 }
 
 /* @end */
