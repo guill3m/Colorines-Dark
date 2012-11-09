@@ -187,7 +187,11 @@ css selector string {
 	color: rgb(253, 130, 180);
 }
 
-css property-name {
+css property-name,
+css variable-value,
+css variable-value constant,
+css variable-value string,
+css variable-value function {
 	color: rgb(180, 180, 50);
 }
 
@@ -219,7 +223,8 @@ css constant.character.escape.css {
 }
 
 css at-rule string,
-css x-text {
+css x-text,
+css variable-value keyword {
 	color: rgb(250, 250, 200);
 }
 
@@ -233,8 +238,13 @@ css support.function.misc punctuation {
 css punctuation,
 css comment punctuation,
 css group-start,
-css group-end {
+css group-end,
+css comment.line.invalid {
 	color: rgb(180, 180, 180);
+}
+
+css comment.line.invalid {
+	background: rgb(25, 25, 25);
 }
 
 css group-start name {
